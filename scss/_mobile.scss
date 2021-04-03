@@ -1,0 +1,37 @@
+@media(max-width: 700px) {
+
+    #showcase {
+        height: 400px;
+
+        .showcase-content{
+            display: block;
+            text-align: center;
+            
+            
+    }
+    label{
+        display: block  !important;
+        margin-left: 400px;
+    }
+    nav{
+        display: none;
+        ul{
+            display: block;
+            
+            
+        }
+        
+    }
+    #toggle:checked + .nav {
+        display: block;
+    }
+    .showcase-list{
+        display: block;
+    }
+
+
+    }
+    .btn-buy{
+        display: none;
+    }
+}

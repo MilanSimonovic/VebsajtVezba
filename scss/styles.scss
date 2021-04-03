@@ -1,0 +1,130 @@
+@import "config";
+@import "utilities";
+@import "buttons"; 
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ body {
+     font-family: $font-stack;
+     line-height: 1.2;
+ }
+ img{
+     width: 100%;
+ }
+ a{
+     text-decoration: none;
+ }
+
+ #showcase{
+     height: 600px;
+    .showcase-hover-drd {
+        ul {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            
+            
+        }
+    }
+
+     .showcase-hover-drd:hover {
+        position: relative;
+        ul {
+            display: block!important;
+        }
+     }
+    .showcase-hover-drd2 {
+        ul {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            
+            
+        }
+    }
+
+     .showcase-hover-drd2:hover {
+        position: relative;
+        ul {
+            display: block!important;
+            
+        }
+     }
+     label{
+         margin: 0 40px 0 0px;
+         font: 26px;
+         line-height: 70px;
+         display: none;
+     }
+     #toggle{
+         display: none;
+     }
+
+     nav{
+         display: flex;
+         position: relative;
+         align-items: center;
+         justify-content: space-between;
+
+         ul{
+             display: flex;
+             list-style: none;
+         }
+         li{
+             padding:30px;
+             a:hover{
+                color: $primary-color;
+             }
+             
+         }
+         
+     }
+     .logo{
+         color:$primary-color;
+     }
+
+     
+    
+
+     
+        
+
+     .showcase-content{
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         img{
+             width: 60%;
+         }
+         h1{
+             font-size: 40px;
+             line-height: 1.2;
+         }
+         p{
+            margin: 20px 0;
+            line-height: 1.6;
+            font-size: 20px;
+            color: $secondary-color;
+            
+         }
+
+     }
+     .showcase-list{
+         display: flex;
+         margin-top: 75px;
+     }
+
+
+ }
+
+ a{
+     color: $secondary-color;
+ }
+
+ @import 'mobile';
+  
+ 
